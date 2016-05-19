@@ -1,0 +1,41 @@
+#lk-contact-section {
+    background: #184bde;
+    padding: 5em 0;
+}
+@media screen and (max-width: 768px) {
+  #lk-contact-section{
+      background: #184bde;
+      padding: 3em 0;
+  }
+}
+
+#lk-contact-section .form-control {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  font-weight: 400;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+}
+#lk-contact-section .form-control:focus, #lk-contact-section .form-control:active {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+#lk-contact-section input[type="text"] {
+  height: 50px;
+}
+#lk-contact-section .form-group {
+  margin-bottom: 30px;
+}
+#lk-contact-section h3 {
+    color: #fff;
+}
+#lk-contact-section p {
+    color: rgba(255, 255, 255, 0.7);
+}
